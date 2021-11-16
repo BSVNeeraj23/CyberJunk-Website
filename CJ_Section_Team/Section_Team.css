@@ -1,0 +1,296 @@
+/* font-family: 'Open Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* font-family: 'Lato', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* font-family: 'Nunito', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'Inter', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* font-family: 'Merriweather Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* ---------------------------------------------------------- */
+/* ========================= COLORS ========================= */
+/* ---------------------------------------------------------- */
+.team-color-1 {
+  /* color: #637381; */
+  color: black;
+}
+
+/* ---------------------------------------------------------- */
+/* ========================= MARGIN ========================= */
+/* ---------------------------------------------------------- */
+/* .team-margin-1 {
+  margin-bottom: 25px;
+} */
+
+/* ----------------------------------------------------------- */
+/* ========================= DISPLAY ========================= */
+/* ----------------------------------------------------------- */
+.team-display-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-display-2 {
+  display: flex;
+  align-items: center;
+}
+
+.team-display-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.team-display-4 {
+  display: inline-flex;
+}
+
+.team-display-5 {
+  display: block;
+}
+
+.team-display-6 {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.team-display-7 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ---------------------------------------------------------- */
+/* ========================== FONTs ========================= */
+/* ---------------------------------------------------------- */
+.team-font-1 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.team-font-2 {
+  font-family: 'Lato', sans-serif;
+}
+
+.team-font-3 {
+  font-family: 'Nunito', sans-serif;
+}
+
+.team-font-4 {
+  font-family: 'Inter', sans-serif;
+}
+
+.team-font-5 {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+/* ------------------------------------------------------------------ */
+/* ========================== WEB PAGE BODY ========================= */
+/* ------------------------------------------------------------------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.container-team {
+  height: 713px;
+  width: 100%;
+  padding-right: 130px;
+  background: url('https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1974&q=80')
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.team-members-section {
+  height: 620px;
+  width: 1000px;
+  /* margin: auto; */
+  border-radius: 15px;
+  /* overflow: hidden; */
+  overflow-y: auto;
+}
+
+.team-members-title {
+  height: 14%;
+  width: 100%;
+}
+.team-heading-line {
+  font-size: 28px;
+  font-weight: 700;
+  /* letter-spacing: 0.35px; */
+  font-family: 'Open Sans', sans-serif;
+}
+
+.team-heading-text {
+  margin-top: 2px;
+  font-size: 20px;
+  font-weight: 600;
+  /* letter-spacing: 0.35px; */
+}
+
+.team-members-section-1,
+.team-members-section-2 {
+  height: 42%;
+  width: 100%;
+}
+
+.team-members {
+  height: 100%;
+  width: 225px;
+  padding: 10px;
+  /* overflow: hidden; */
+  /* border: 1px solid black; */
+}
+
+.team-member {
+  height: 100%;
+  width: 100%;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  transition: 175ms transform ease-in-out;
+}
+
+.team-member:hover,
+.team-member:active {
+  transform: scale(1.04);
+}
+
+.team-member-image-div {
+  height: 45%;
+  margin-top: 25px;
+}
+
+.team-member-image {
+  height: 100%;
+  width: 110px;
+  background-color: rgb(240, 240, 113);
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.team-member-image img {
+  position: absolute;
+  object-fit: cover;
+}
+
+.team-member-name {
+  margin: 15px 0 -2px 0;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Nunito', sans-serif;
+}
+
+.team-member-role {
+  margin: 0 0 9px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.team-member-links ul {
+  width: 90px;
+  list-style: none;
+}
+
+.team-member-links ul li {
+  color: #2c394b;
+  /* color: rgba(0, 0, 0, 0.5); */
+  opacity: 0;
+  transform: translateY(15px);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.team-member:hover .team-member-links ul li {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.team-member-links ul li img {
+  height: 28px;
+  width: 28px;
+}
+
+.bx {
+  font-size: 24px;
+}
+
+/* ------------------------------------------------------------------ */
+/* ========================== GLASSMORPHISM ========================= */
+/* ------------------------------------------------------------------ */
+.team-glass-1 {
+  background: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.team-glass-2 {
+  /* border-radius: 12px; */
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+}
+
+.team-glass-3 {
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.team-glass-4 {
+  /* border-radius: 12px; */
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+}
+
+/* -------------------------------------------------------------- */
+/* ========================== GRADIENTS ========================= */
+/* -------------------------------------------------------------- */
+.contact-gradient-1 {
+  background: linear-gradient(to right top, #bcdbd6, #6b7274);
+}
+
+.contact-gradient-2 {
+  background-color: rgb(238, 174, 202);
+  background: linear-gradient(45deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.contact-gradient-3 {
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
+
+/* ---------------------------------------------------------------------- */
+/* ========================== BACKGROUND IMAGES ========================= */
+/* ---------------------------------------------------------------------- */
+.contact-background-1 {
+  background: url('https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1974&q=80')
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
