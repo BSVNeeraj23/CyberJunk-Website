@@ -1,1 +1,1 @@
-Welcome to CyberJunk Sponsors Section
+Welcome to CyberJunk Foundation Sponsors Section
